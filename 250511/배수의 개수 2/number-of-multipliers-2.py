@@ -1,8 +1,7 @@
 cnt = 0
 for i in range(10):
-    n = map(int, input())
+    n = int(input())
     if i % 2 == 1:
         cnt += 1
-    else:
-        continue
+
 print(cnt)
