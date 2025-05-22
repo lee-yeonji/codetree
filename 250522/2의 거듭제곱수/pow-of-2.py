@@ -1,4 +1,5 @@
-'''n = int(input())
+# 제출 답변
+n = int(input())
 cnt = 0
 
 while n!=1:
@@ -7,7 +8,7 @@ while n!=1:
     n //= 2
     cnt += 1
 
-print(cnt)'''
+print(cnt)
 
 # 모범답안
 n = int(input())
