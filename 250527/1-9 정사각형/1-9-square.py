@@ -1,0 +1,15 @@
+n = int(input())
+cnt = 1
+
+for i in range(n):
+    for j in range(n):
+        if cnt <= 9:
+            print(cnt, end='')
+            cnt += 1
+        elif cnt % 9 == 0:
+            print(9, end='')
+            cnt += 1
+        else:
+            print(cnt % 9, end='')
+            cnt += 1
+    print()
