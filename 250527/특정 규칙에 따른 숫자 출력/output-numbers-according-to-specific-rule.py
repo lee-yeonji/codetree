@@ -8,8 +8,8 @@ for i in range(n):
         if cnt <= 9:
             print(cnt, end=' ')
             cnt += 1
-        elif cnt % 9 == 1:
-            print(1, end=' ')
+        elif cnt % 9 == 0:
+            print(9, end=' ')
             cnt += 1
         else:
             print(cnt % 9, end=' ')
