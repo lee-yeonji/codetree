@@ -7,6 +7,6 @@ n = len(arr_j)
 
 sum_i = sum(arr_i)
 sum_j = sum(arr_j)
-avg_j = sum_j / n
+avg_j = round(sum_j / n, 1)
 
 print(sum_i, avg_j)
